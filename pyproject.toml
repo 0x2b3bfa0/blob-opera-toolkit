@@ -81,7 +81,7 @@ pycodestyle = ["+*", "-E741", "-E203"]
 pyflakes = ["+*"]
 pylint = ["+*"]
 
-[tool.flakehell.exceptions."documentation/**/*.ipynb"]
+[tool.flakehell.exceptions."documentation/steganography/example.ipynb"]
 pycodestyle = ["-*"]
 
 [tool.flakehell.exceptions."tests/*.py"]
